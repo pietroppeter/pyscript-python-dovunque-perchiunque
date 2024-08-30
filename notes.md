@@ -7,7 +7,10 @@
       - workaround: add manually path for each dependency! [x]
       - create an issue for this [x]
   - add nimislides and check it works [x]
-- minimal draft
+- nimislides custom setup (from diventa-avventore-del-codice) [x]
+    - basic index.nim and my.nim (renamed from nbex) [x]
+        - (why `import nimib except toJson`?)
+- minimal draft (from agenda)
 - post on linkedin
 
 agenda:

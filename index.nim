@@ -1,9 +1,15 @@
 import nimib, nimislides
+import my
 
-nbInit(theme = revealTheme)
+template titleSlide* =
+  slide:
+    nbText "assabbinidica"
 
-slide:
-  nbCode:
-    echo "assabbinidica"
+template agendaSlide* =
+  discard
 
-nbSave
+when isMainModule:
+  myInit("index")
+  titleSlide
+  agendaSlide
+  nbSave
