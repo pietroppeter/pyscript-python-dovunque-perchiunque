@@ -2,8 +2,10 @@
 
 - nim env setup [x]
   - with nimble this time! [x]
-  - add nimib and check it works
+  - add nimib and check it works [x]
     - issue: cannot open file nimib
+      - workaround: add manually path for each dependency! [x]
+      - create an issue for this
   - add nimislides and check it works
 - minimal draft
 - post on linkedin

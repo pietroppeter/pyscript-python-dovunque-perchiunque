@@ -1,0 +1,2 @@
+nimbledeps/*
+!nimbledeps/.gitkeep
