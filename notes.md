@@ -32,21 +32,19 @@
           - show it [x]
         - dipendenza (e backend) [x]
       - chista: versione in pyscript [x]
-    - perché: single quoteSlide
-        - "If the Web and Python had a baby, you'd get PyScript." --https://docs.pyscript.net/
+    - perché: single quoteSlide [x]
+    - come (wasm, pyodide, micropython, polyscript) [x]
     - github (pages) demo?
-    - come (wasm, pyodide, micropython, polyscript)
-    - esempio di creative coding con p5js/proceso?
-    - risorse
-        - intervista pythonista a Fabio Pliger (Anaconda)
-        - milano.python.it meetup con Andrea Giammarchi e Nicholas Tollervey
-          ["PyScript: Python on the browser and beyond"](https://www.youtube.com/watch?v=yQIvNcqs0sA&list=PLI39UsD2FrxVgehBJZ68JDzm3u6xJD22l&index=2)
-        - pyscript.net (oss project)
-        - pyscript.com (free hosting)
-        - [discord](https://discord.gg/HxvBtukrg2)
-        - https://www.youtube.com/@PyScriptTV/
-        - github.com/pyscript
-    - grazie
+      - slide [x]
+      - test demo
+      - remove repo
+      - retry demo?
+    - che
+      - slideIdeas
+      - esempio di creative coding con p5js/proceso?
+    - risorse [x]
+      - aggiungo anche talk su streamlit?
+    - grazie [x]
 - chista -> chistacca [x]
 - deploy on github pages
 
