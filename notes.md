@@ -18,7 +18,7 @@
       - this page [x]
         - thanks chatgpt: https://chatgpt.com/share/55ea5e96-6106-47f7-99d2-5a06788f9125
       - slideThis [x]
-      - cosa: versione (italiana) [questa, this, chista]
+        - rename to slideQuesta e traduci [x]
       - codice della cosa
         - html
         - javascript

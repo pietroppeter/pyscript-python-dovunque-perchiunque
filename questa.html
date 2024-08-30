@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Text Cycle</title>
+    <title>Questa è una App</title>
     <style>
-        /* Center the button both horizontally and vertically */
+        /* Centra il bottone verticalmente e orizzontalmente (con flexbox) */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 100vh; /* così il body prende tutta la viewport height */
             margin: 0;
         }
 
-        /* Style the button to be very big */
+        /* per una grande app, ci vuole un grande bottone */
         button {
             font-size: 70px;
             padding: 20px 40px;
@@ -26,18 +26,18 @@
     <button id="cliccami">questa</button>
 
     <script>
-        // Texts to cycle through
+        // cicla su questi testi (attenzione il valore del primo testo è hardcode nell html del bottone!)
         const texts = ["questa", "this"];
         let currentIndex = 0;
 
-        // Get the button element
+        // prendi il bottone
         const button = document.getElementById("cliccami");
 
-        // Add an event listener for button clicks
+        // aggiungi event listener per evento click
         button.addEventListener("click", () => {
-            // Update the current index
+            // aggiorna indice
             currentIndex = (currentIndex + 1) % texts.length;
-            // Update the button text
+            // aggiorna testo bottone
             button.textContent = texts[currentIndex];
         });
     </script>
