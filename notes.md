@@ -11,7 +11,17 @@
     - basic index.nim and my.nim (renamed from nbex) [x]
         - (why `import nimib except toJson`?)
 - minimal draft (from agenda)
+    - titleSlide [x]
+    - agendaSlide(s) [x]
+    - cosa
+    - perché
+    - persone
+    - come
+    - che
+    - chi? (o meglio grazie)
 - post on linkedin
+- nice to haves
+    - ...
 
 agenda:
 - cos'è

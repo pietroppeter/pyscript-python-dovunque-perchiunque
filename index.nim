@@ -1,12 +1,15 @@
 import nimib, nimislides
 import my
+import agenda
 
 template titleSlide* =
   slide:
-    nbText "assabbinidica"
+    nbText """
+## **PyScript** 🐰
 
-template agendaSlide* =
-  discard
+🐍 Python _dovunque_ e _perchiunque_
+"""
+    reference "[github.com/pietroppeter/pyscript-python-dovunque-perchiunque](https://github.com/pietroppeter/pyscript-python-dovunque-perchiunque)"
 
 when isMainModule:
   myInit("index")
