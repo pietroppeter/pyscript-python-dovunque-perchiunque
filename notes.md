@@ -39,9 +39,12 @@
       - test demo
       - remove repo
       - retry demo?
-    - che
-      - slideIdeas
-      - esempio di creative coding con p5js/proceso?
+    - ideas (che ci faccio?) [x]
+      - slideIdeas [x]
+        - 1 cose frontend, ce n'é di tutte le forme e colori; wordle?
+        - 2 contribuire open source
+        - 3 imparare cose web e farsi influenzare da altre culture
+      - esempio di creative coding con p5js/proceso? [x]
     - risorse [x]
       - aggiungo anche talk su streamlit?
     - grazie [x]

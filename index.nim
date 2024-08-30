@@ -68,14 +68,40 @@ template thanksSlide* =
 
 """
 
+template slideIdeas* =
+  slide nbText """
+## 💡 Che ci faccio?
+
+1. cose frontend (🔵🟩🔺...)
+2. contribuire open source 🙋🏼‍♀️
+3. imparo cose web (tech e cultura) 🌍
+"""
+
+template slideP5js* =
+  slide(slideOptions(iframeBackground="https://p5js.org/")):
+    discard
+
+template slideCreativeCodinglinks* =
+  slide nbText """
+## 🌸 Creative Coding
+
+- [github.com/nickmcintyre/proceso](https://github.com/nickmcintyre/proceso) (p5js for pyscript)
+- [Okazzu (artist) @ Open Processing](https://openprocessing.org/user/128718?view=sketches&o=32)
+- [io che traduco (malamente) sketch di Okazzu](https://github.com/pietroppeter/rc23winter1)
+"""
+
 when isMainModule:
   myInit("index")
   titleSlide
   slide:
     cosa.all
-  babySlide # perché
+  babySlide # usare per motivare bene il perché
   howSlide
-  #githubDemoSlide #include? need to test the demo first
+  githubDemoSlide # need to test the demo!
+  slide:
+    slideIdeas
+    slideP5js
+    slideCreativeCodinglinks
   resourcesSlide
   thanksSlide
   nbSave
