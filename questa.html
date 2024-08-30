@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Questa è una App</title>
+    <title>Questa è una WebApp</title>
     <style>
         /* Centra il bottone verticalmente e orizzontalmente (con flexbox) */
         body {
@@ -24,22 +24,6 @@
 </head>
 <body>
     <button id="cliccami">questa</button>
-
-    <script>
-        // cicla su questi testi (attenzione il valore del primo testo è hardcode nell html del bottone!)
-        const texts = ["questa", "this"];
-        let currentIndex = 0;
-
-        // prendi il bottone
-        const button = document.getElementById("cliccami");
-
-        // aggiungi event listener per evento click
-        button.addEventListener("click", () => {
-            // aggiorna indice
-            currentIndex = (currentIndex + 1) % texts.length;
-            // aggiorna testo bottone
-            button.textContent = texts[currentIndex];
-        });
-    </script>
+    <script src="./main.js"></script>
 </body>
 </html>

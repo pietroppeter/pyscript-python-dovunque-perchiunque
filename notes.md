@@ -10,10 +10,16 @@
 - nimislides custom setup (from diventa-avventore-del-codice) [x]
     - basic index.nim and my.nim (renamed from nbex) [x]
         - (why `import nimib except toJson`?)
+- uv init [x]
+    - need python webserver for pyscript [x]
+        - (only if I use the main.py?)
+- how to see slides with python web server [x]
 - minimal draft (from agenda)
     - titleSlide [x]
     - agendaSlide(s) [x]
-    - cosa
+        - aggiungi pyscript come titoletto
+        - migliora testo agenda
+    - cosa [x]
       - module with agendaSlide(cosa) [x]
       - this page [x]
         - thanks chatgpt: https://chatgpt.com/share/55ea5e96-6106-47f7-99d2-5a06788f9125
@@ -22,11 +28,15 @@
       - codice della cosa
         - slideHtml [x]
         - javascript [x]
-      - codice di chista
+      - codice di chista [x]
         - pyscript
-        - dipendenza (e backend)
-      - chista: versione in pyscript
+          - da chatgpt [x]
+          - fix it (and use mpython) [x]
+          - show it [x]
+        - dipendenza (e backend) [x]
+      - chista: versione in pyscript [x]
     - perché
+        - "If the Web and Python had a baby, you'd get PyScript."
         - python
             - linguaggio, ecosistema
             - progetto, comunità
@@ -35,6 +45,10 @@
             - dovunque (link australiano)
             - perchiunque (99%, barefoot?)
             - e anche da web verso python! (vedi dopo creative coding)
+    - risorse
+        - pyscript.net
+        - pyscript.com
+        - https://docs.pyscript.net/
     - come
       - wasm
       - backends
@@ -54,9 +68,14 @@
     - chi? (o meglio grazie)
     	- agilelab.it (hola), milano.python.it, recurse.it (nim for pythonistas)
 
+study pyscript:
+- https://docs.pyscript.net/2024.8.2/
+- documentation has improved a lot!
+
 - post on linkedin
 - nice to haves
     - animation on perché python
+    - animations sul codice
 
 agenda:
 - cos'è
@@ -84,6 +103,22 @@ agenda:
 	- creative coding
 - chi sono?
 	- agilelab, pymi, rc (nim for pythonistas)
+
+## friction log pyscript
+
+- documentation: arrows to go forward and back?
+- link to github from docs?
+- I want to start with python in a pyscript tag not with a script and separate main.py
+- Home
+    - mmh, scalable...
+    - secure?
+- for me difference with backends is one of the main things and I want micropython as default backend
+
+domanda sui backend:
+- ma ora cosa succede che parte con mpy e carica in modo lazy pyodide???
+
+offtopic:
+- it would be nice to have a follow all when you hover over contributors of a project
 
 ## issue: `Error: cannot open file: nimib`
 

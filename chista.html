@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button Text Cycle with PyScript</title>
+    <title>Chista è una PyWebApp</title>
     <style>
-        /* Center the button both horizontally and vertically */
         body {
             display: flex;
             justify-content: center;
@@ -14,39 +13,23 @@
             margin: 0;
         }
 
-        /* Style the button to be very big */
         button {
-            font-size: 50px;
+            font-size: 70px;
             padding: 20px 40px;
             cursor: pointer;
+            /* cambiato come il bottone appare (rispetto a questa.html): */
+            color: white;
+            background-color: #02A4BD;
+            border: none;
+            border-radius: 5px;
         }
     </style>
     <!-- Load PyScript -->
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <!-- do I need the css as in docs.pyscript.net? maybe not...-->
+    <script type="module" src="https://pyscript.net/releases/2024.8.2/core.js"></script>
 </head>
 <body>
-    <button id="cycleButton">this</button>
-
-    <!-- PyScript code -->
-    <py-script>
-        # Import the necessary PyScript module
-        from pyscript import Element
-
-        # Texts to cycle through
-        texts = ["this", "foo", "bar"]
-        current_index = 0
-
-        # Function to handle button click
-        def cycle_text(event):
-            global current_index
-            # Update the current index
-            current_index = (current_index + 1) % len(texts)
-            # Update the button text
-            Element("cycleButton").write(texts[current_index])
-
-        # Attach the function to the button click event
-        Element("cycleButton").element.addEventListener("click", cycle_text)
-    </py-script>
+    <button id="bottone" py-click="cambia">questa</button> <!-- note the py-click attribute -->
+    <script type="py" src="./main.py"></script> <!-- pyscript -->
 </body>
 </html>

@@ -6,21 +6,42 @@ template slideQuesta* =
   slide(slideOptions(iframeBackground="questa.html")):
     discard
 
+template slideChista* =
+  slide(slideOptions(iframeBackground="chista.html")):
+    discard
+
 template slideHtml* =
   slide nbText """
 ```html
 <!DOCTYPE html>
 <head>
-    <title>Questa è una App</title>
+    <title>Questa è una WebApp</title>
     <style>
       ...
     </style>
 </head>
 <body>
     <button id="cliccami">questa</button>
-    <script>
+    <script src="./main.js"></script>
+</body>
+</html>
+```
+"""
+
+template slidePyHtml* =
+  slide nbText """
+```html
+<!DOCTYPE html>
+<head>
+    <title>Chista è una PyWebApp</title>
+    <style>
       ...
-    </script>
+    </style>
+    <script type="module" src="https://pyscript.net/releases/2024.8.2/core.js"></script>
+</head>
+<body>
+    <button id="bottone" mpy-click="cambia">questa</button>
+    <script type="mpy" src="./main.py"></script>
 </body>
 </html>
 ```
@@ -28,42 +49,38 @@ template slideHtml* =
 
 template slideJavascript* =
   slide nbText """
-```html
-<script>
-  const texts = ["questa", "this"];
-  let currentIndex = 0;
+`main.js`
 
-  const button = document.getElementById("cliccami");
-
-  button.addEventListener("click", () => {
-      currentIndex = (currentIndex + 1) % texts.length;
-      button.textContent = texts[currentIndex];
-  });
-</script>
+```js
+$1
 ```
-"""
+""" % "main.js".readFile
 
 template slidePyScript* =
   slide nbText """
-```html
-<script>
-  const texts = ["questa", "this", "chista"];
-  let currentIndex = 0;
+`main.py`
 
-  const button = document.getElementById("cliccami");
-
-  button.addEventListener("click", () => {
-      currentIndex = (currentIndex + 1) % texts.length;
-      button.textContent = texts[currentIndex];
-  });
-</script>
+```py
+$1
 ```
-"""
+""" % "main.py".readFile
+
+template enterPyScript* =
+  slide nbText "# 🐰"
+
+template all* =
+  slideQuesta
+  slideHtml
+  slideJavascript
+
+  enterPyScript
+  
+  slidePyScript
+  slidePyHtml
+  slideChista
 
 when isMainModule:
   myInit("cosa")
-  slideJavascript
-  slideHtml
   agendaSlide(1)
-  slideQuesta
+  all
   nbSave

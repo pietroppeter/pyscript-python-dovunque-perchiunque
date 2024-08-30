@@ -1,6 +1,6 @@
 import nimib, nimislides
 import my
-import agenda
+import agenda, cosa
 
 template titleSlide* =
   slide:
@@ -14,5 +14,7 @@ template titleSlide* =
 when isMainModule:
   myInit("index")
   titleSlide
-  agendaSlide
+  #agendaSlide
+  slide:
+    cosa.all
   nbSave

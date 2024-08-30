@@ -23,13 +23,82 @@
       <small><p><a href="https://github.com/pietroppeter/pyscript-python-dovunque-perchiunque">github.com/pietroppeter/pyscript-python-dovunque-perchiunque</a></p></small>
       </section>
       <section data-nimib-slide-number="2" >
-      <ol>
-<li>cosa</li>
-<li>perché</li>
-<li>persone</li>
-<li>come</li>
-<li>che</li>
-</ol>
+      <section data-nimib-slide-number="3" data-background-iframe="questa.html" data-background-interactive >
+      </section>
+      <section data-nimib-slide-number="4" >
+      <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+    &lt;title&gt;Questa è una WebApp&lt;/title&gt;
+    &lt;style&gt;
+      ...
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button id=&quot;cliccami&quot;&gt;questa&lt;/button&gt;
+    &lt;script src=&quot;./main.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="5" >
+      <p><code>main.js</code></p>
+<pre><code class="language-js">// cicla su questi testi
+const texts = [&quot;questa&quot;, &quot;this&quot;];
+let currentIndex = 0;
+
+// prendi il bottone
+const button = document.getElementById(&quot;cliccami&quot;);
+
+// aggiungi event listener per evento click
+button.addEventListener(&quot;click&quot;, () =&gt; {
+    // aggiorna indice
+    currentIndex = (currentIndex + 1) % texts.length;
+    // aggiorna testo bottone
+    button.textContent = texts[currentIndex];
+});
+
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="6" >
+      <h1>🐰</h1>
+      </section>
+      <section data-nimib-slide-number="7" >
+      <p><code>main.py</code></p>
+<pre><code class="language-py">from pyscript import document
+
+def cambia(event):
+    bottone = document.querySelector(&quot;#bottone&quot;)
+    testo = bottone.innerText
+    bottone.innerText = cicla(testo)
+
+def cicla(testo: str) -&gt; str:
+    if testo == &quot;questa&quot;:
+        return &quot;this&quot;
+    elif testo == &quot;this&quot;:
+        return &quot;chista&quot;
+    else:
+        return &quot;questa&quot;
+
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="8" >
+      <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+    &lt;title&gt;Chista è una PyWebApp&lt;/title&gt;
+    &lt;style&gt;
+      ...
+    &lt;/style&gt;
+    &lt;script type=&quot;module&quot; src=&quot;https://pyscript.net/releases/2024.8.2/core.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button id=&quot;bottone&quot; mpy-click=&quot;cambia&quot;&gt;questa&lt;/button&gt;
+    &lt;script type=&quot;mpy&quot; src=&quot;./main.py&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="9" data-background-iframe="chista.html" data-background-interactive >
+      </section>
       </section>
     </div>
   </div>
