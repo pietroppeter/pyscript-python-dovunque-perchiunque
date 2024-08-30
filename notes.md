@@ -14,11 +14,40 @@
     - titleSlide [x]
     - agendaSlide(s) [x]
     - cosa
+      - this page [x]
+        - thanks chatgpt: https://chatgpt.com/share/55ea5e96-6106-47f7-99d2-5a06788f9125
+      - cosa: versione (italiana) [questa, this, chista]
+      - codice della cosa
+      - chista: versione in pyscript
+      - codice di chista
     - perché
-    - persone
+        - python
+            - linguaggio, ecosistema
+            - progetto, comunità
+            - valori: Accessible, Giocosa, Inclusiva
+        - web
+            - dovunque (link australiano)
+            - perchiunque (99%, barefoot?)
+            - e anche da web verso python! (vedi dopo creative coding)
     - come
+      - wasm
+      - backends
+        - pyodide
+        - micropython
+      - more than that (async...)
+    - persone
+        - peter: anaconda, pydata/numfocus
+        - fabio: intervista pythonista
+        - ntoll: educator
+        - andrea: webreflection (link to pymi meetup)
     - che
+      - modo più rapido per fare cose con codice (python)
+        - github pages demo? con chista?
+      - contribuire open source
+      - imparare web e farsi influenzare (es. creative coding)
     - chi? (o meglio grazie)
+    	- agilelab.it (hola), milano.python.it, recurse.it (nim for pythonistas)
+
 - post on linkedin
 - nice to haves
     - ...

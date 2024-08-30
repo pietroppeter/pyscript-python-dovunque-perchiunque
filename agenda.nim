@@ -5,11 +5,11 @@ export strutils
 const
   cosa* = "cosa"
   perché* = "perché"
-  persone* = "persone"
   come* = "come"
+  persone* = "persone"
   che* = "che"
   chi* = "chi"
-  tutto* = [cosa, perché, persone, come, che, chi]
+  tutto* = [cosa, perché, come, persone, che, chi]
 
 func emphArray*(a: openArray[string], i: int): seq[string] =
   for j, v in a:

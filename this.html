@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Text Cycle</title>
+    <style>
+        /* Center the button both horizontally and vertically */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Style the button to be very big */
+        button {
+            font-size: 70px;
+            padding: 20px 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button id="cycleButton">this</button>
+
+    <script>
+        // Texts to cycle through
+        const texts = ["this", "foo", "bar"];
+        let currentIndex = 0;
+
+        // Get the button element
+        const button = document.getElementById("cycleButton");
+
+        // Add an event listener for button clicks
+        button.addEventListener("click", () => {
+            // Update the current index
+            currentIndex = (currentIndex + 1) % texts.length;
+            // Update the button text
+            button.textContent = texts[currentIndex];
+        });
+    </script>
+</body>
+</html>
