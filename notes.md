@@ -16,9 +16,6 @@
 - how to see slides with python web server [x]
 - minimal draft (from agenda)
     - titleSlide [x]
-    - agendaSlide(s) [x]
-        - aggiungi pyscript come titoletto
-        - migliora testo agenda
     - cosa [x]
       - module with agendaSlide(cosa) [x]
       - this page [x]
@@ -36,7 +33,29 @@
         - dipendenza (e backend) [x]
       - chista: versione in pyscript [x]
     - perché
-        - "If the Web and Python had a baby, you'd get PyScript."
+        - "If the Web and Python had a baby, you'd get PyScript." --https://docs.pyscript.net/
+    - github (pages) demo?
+    - come (wasm, pyodide, micropython, polyscript)
+    - esempio di creative coding con p5js/proceso?
+    - risorse
+        - intervista pythonista a Fabio Pliger (Anaconda)
+        - milano.python.it meetup con Andrea Giammarchi e Nicholas Tollervey
+          ["PyScript: Python on the browser and beyond"](https://www.youtube.com/watch?v=yQIvNcqs0sA&list=PLI39UsD2FrxVgehBJZ68JDzm3u6xJD22l&index=2)
+        - pyscript.net (oss project)
+        - pyscript.com (free hosting)
+        - [discord](https://discord.gg/HxvBtukrg2)
+        - https://www.youtube.com/@PyScriptTV/
+        - github.com/pyscript
+    - grazie
+- chista -> chistacca [x]
+- deploy on github pages
+
+not minimal (kept for a later version, to be submitted at PyCon Italy):
+- content
+    - agendaSlide(s) [x]
+        - aggiungi pyscript come titoletto
+        - migliora testo agenda
+    - more perché
         - python
             - linguaggio, ecosistema
             - progetto, comunità
@@ -45,16 +64,12 @@
             - dovunque (link australiano)
             - perchiunque (99%, barefoot?)
             - e anche da web verso python! (vedi dopo creative coding)
-    - risorse
-        - pyscript.net
-        - pyscript.com
-        - https://docs.pyscript.net/
     - come
       - wasm
       - backends
         - pyodide
         - micropython (<200ms, <200kb compresso)
-      - more than that (async...)
+      - more than that (async...) polyscript
     - persone
         - peter: anaconda, pydata/numfocus
         - fabio: intervista pythonista
@@ -113,6 +128,7 @@ agenda:
     - mmh, scalable...
     - secure?
 - for me difference with backends is one of the main things and I want micropython as default backend
+- link discord più trasparente?
 
 domanda sui backend:
 - ma ora cosa succede che parte con mpy e carica in modo lazy pyodide???

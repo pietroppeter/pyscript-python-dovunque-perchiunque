@@ -7,7 +7,7 @@ template slideQuesta* =
     discard
 
 template slideChista* =
-  slide(slideOptions(iframeBackground="chista.html")):
+  slide(slideOptions(iframeBackground="chistacc%C3%A0.html")):
     discard
 
 template slideHtml* =
@@ -33,7 +33,7 @@ template slidePyHtml* =
 ```html
 <!DOCTYPE html>
 <head>
-    <title>Chista è una PyWebApp</title>
+    <title>Chistaccà è una PyWebApp</title>
     <style>
       ...
     </style>
@@ -74,7 +74,7 @@ template all* =
   slideJavascript
 
   enterPyScript
-  
+
   slidePyScript
   slidePyHtml
   slideChista

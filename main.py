@@ -9,6 +9,6 @@ def cicla(testo: str) -> str:
     if testo == "questa":
         return "this"
     elif testo == "this":
-        return "chista"
+        return "chistaccà"
     else:
         return "questa"
