@@ -18,6 +18,37 @@
 
 </style>
       <section data-nimib-slide-number="1" >
+      <pre><code class="language-html">&lt;script&gt;
+  const texts = [&quot;questa&quot;, &quot;this&quot;];
+  let currentIndex = 0;
+
+  const button = document.getElementById(&quot;cliccami&quot;);
+
+  button.addEventListener(&quot;click&quot;, () =&gt; {
+      currentIndex = (currentIndex + 1) % texts.length;
+      button.textContent = texts[currentIndex];
+  });
+&lt;/script&gt;
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="2" >
+      <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;head&gt;
+    &lt;title&gt;Questa è una App&lt;/title&gt;
+    &lt;style&gt;
+      ...
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button id=&quot;cliccami&quot;&gt;questa&lt;/button&gt;
+    &lt;script&gt;
+      ...
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      </section>
+      <section data-nimib-slide-number="3" >
       <ol>
 <li><strong>cosa</strong></li>
 <li>perché</li>
@@ -26,7 +57,7 @@
 <li>che</li>
 </ol>
       </section>
-      <section data-nimib-slide-number="2" data-background-iframe="questa.html" data-background-interactive >
+      <section data-nimib-slide-number="4" data-background-iframe="questa.html" data-background-interactive >
       </section>
     </div>
   </div>

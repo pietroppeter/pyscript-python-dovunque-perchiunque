@@ -20,8 +20,8 @@
       - slideThis [x]
         - rename to slideQuesta e traduci [x]
       - codice della cosa
-        - html
-        - javascript
+        - slideHtml [x]
+        - javascript [x]
       - codice di chista
         - pyscript
         - dipendenza (e backend)
