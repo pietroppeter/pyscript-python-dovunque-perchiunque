@@ -14,12 +14,18 @@
     - titleSlide [x]
     - agendaSlide(s) [x]
     - cosa
+      - module with agendaSlide(cosa) [x]
       - this page [x]
         - thanks chatgpt: https://chatgpt.com/share/55ea5e96-6106-47f7-99d2-5a06788f9125
+      - slideThis [x]
       - cosa: versione (italiana) [questa, this, chista]
       - codice della cosa
-      - chista: versione in pyscript
+        - html
+        - javascript
       - codice di chista
+        - pyscript
+        - dipendenza (e backend)
+      - chista: versione in pyscript
     - perché
         - python
             - linguaggio, ecosistema
@@ -33,7 +39,7 @@
       - wasm
       - backends
         - pyodide
-        - micropython
+        - micropython (<200ms, <200kb compresso)
       - more than that (async...)
     - persone
         - peter: anaconda, pydata/numfocus
@@ -50,7 +56,7 @@
 
 - post on linkedin
 - nice to haves
-    - ...
+    - animation on perché python
 
 agenda:
 - cos'è
