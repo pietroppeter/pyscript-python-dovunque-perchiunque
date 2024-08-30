@@ -12,3 +12,4 @@ license       = "MIT"
 # Dependencies
 
 requires "nim >= 2.0.8"
+requires "nimib >= 0.3.12"

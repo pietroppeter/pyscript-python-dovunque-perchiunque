@@ -1,5 +1,72 @@
 {
   "version": 2,
-  "packages": {},
+  "packages": {
+    "fusion": {
+      "version": "1.2",
+      "vcsRevision": "0b0a0273b8df860cd54e3fcca7bb4c617244ac77",
+      "url": "https://github.com/nim-lang/fusion",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "408bde8679bce63dfb6f424e107eb37c5eb31510"
+      }
+    },
+    "jsony": {
+      "version": "1.1.5",
+      "vcsRevision": "ea811bec7fa50f5abd3088ba94cda74285e93f18",
+      "url": "https://github.com/treeform/jsony",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "6aeb83e7481ca8686396a568096054bc668294df"
+      }
+    },
+    "markdown": {
+      "version": "0.8.8",
+      "vcsRevision": "5a7a7bafd1da23b25332316a7b888e6586f4177a",
+      "url": "https://github.com/soasme/nim-markdown",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "a59d1205efe2e0bbc3657481e188ce7e7de3d943"
+      }
+    },
+    "mustache": {
+      "version": "0.4.3",
+      "vcsRevision": "1677949a848fc126a0716a67bba2c6217205255c",
+      "url": "https://github.com/soasme/nim-mustache",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "9c7e49440ae9bb6494bd202eea6ef7405811c6bb"
+      }
+    },
+    "parsetoml": {
+      "version": "0.7.1",
+      "vcsRevision": "6e5e16179fa2db60f2f37d8b1af4128aaa9c8aaf",
+      "url": "https://github.com/NimParsers/parsetoml.git",
+      "downloadMethod": "git",
+      "dependencies": [],
+      "checksums": {
+        "sha1": "586fe63467a674008c4445ed1b8ac882177d7103"
+      }
+    },
+    "nimib": {
+      "version": "0.3.12",
+      "vcsRevision": "54541820232ee41cfa719fac002c718f5e7d628d",
+      "url": "https://github.com/pietroppeter/nimib",
+      "downloadMethod": "git",
+      "dependencies": [
+        "fusion",
+        "markdown",
+        "mustache",
+        "parsetoml",
+        "jsony"
+      ],
+      "checksums": {
+        "sha1": "f905e5b5233411fc4608f27187da5726976f28ab"
+      }
+    }
+  },
   "tasks": {}
 }
