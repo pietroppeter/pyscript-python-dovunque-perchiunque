@@ -42,10 +42,11 @@ template githubDemoSlide* =
 """ % [githubLogoUrl]
 
 template resourcesSlide* =
-  slide nbText """
-## 📚 risorse
+  slide:
+    nbText "## 📚 risorse"
+    nbTextSmall """
 
-- [intervista pythonista a Fabio](https://www.youtube.com/watch?v=YICaByu83LA&list=PLI39UsD2FrxXZlqQv1JLrM8v0jpbMolfN&index=36) Pliger (Anaconda)
+- [intervista pythonista a Fabio](https://www.youtube.com/watch?v=YICaByu83LA&list=PLI39UsD2FrxXZlqQv1JLrM8v0jpbMolfN&index=36) Pliger (origin story at Anaconda)
 - [milano.python.it](https://milano.python.it) meetup con Andrea Giammarchi e Nicholas Tollervey
   ["PyScript: Python on the browser and beyond"](https://www.youtube.com/watch?v=yQIvNcqs0sA&list=PLI39UsD2FrxVgehBJZ68JDzm3u6xJD22l&index=2)
 - [pyscript.net](https://pyscript.net) (oss project)
