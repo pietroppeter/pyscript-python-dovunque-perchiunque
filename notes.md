@@ -32,7 +32,7 @@
           - show it [x]
         - dipendenza (e backend) [x]
       - chista: versione in pyscript [x]
-    - perché
+    - perché: single quoteSlide
         - "If the Web and Python had a baby, you'd get PyScript." --https://docs.pyscript.net/
     - github (pages) demo?
     - come (wasm, pyodide, micropython, polyscript)

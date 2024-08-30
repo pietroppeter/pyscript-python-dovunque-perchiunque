@@ -4,7 +4,11 @@ presentazione su pyscript
 
 per il meetup [Python Catania del 30 Agosto 2024](https://www.meetup.com/it-IT/python-catania/events/302671524/)
 
+## slides
+
 slides fatte in [nim] con [nimib] e [nimislides]
+
+### shortcut per me
 
 per vedere le slide in locale (fatti un favore e usa [uv])
 
@@ -12,13 +16,16 @@ per vedere le slide in locale (fatti un favore e usa [uv])
 
 poi:
 
-[localhost:8000/index.html](localhost:8000/index.html)
+    http://localhost:8000/index.html
 
 o cose tipo:
 
-[localhost:8000/chistaccà.html](localhost:8000/chistacc%C3%A0.html)
+    http://localhost:8000/chistacc%C3%A0.html
+
+## chistaccà
 
 "chistaccà" è questa (qua) in Siciliano (credo).
+
 
 [uv]: https://docs.astral.sh/uv/
 [nim]: https://nim-lang.org/

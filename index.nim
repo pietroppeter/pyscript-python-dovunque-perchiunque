@@ -13,8 +13,12 @@ template titleSlide* =
 
 when isMainModule:
   myInit("index")
+  #babySlide # perché
+  #howSlide
+  #resourcesSlide
+  #githubDemoSlide #include?
+  #thanksSlide
   titleSlide
-  #agendaSlide
   slide:
     cosa.all
   nbSave
