@@ -6,7 +6,7 @@
     - issue: cannot open file nimib
       - workaround: add manually path for each dependency! [x]
       - create an issue for this
-  - add nimislides and check it works
+  - add nimislides and check it works [x]
 - minimal draft
 - post on linkedin
 

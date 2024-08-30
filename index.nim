@@ -1,7 +1,9 @@
-import nimib
+import nimib, nimislides
 
-nbInit
-nbCode:
-  echo "assabbinidica"
+nbInit(theme = revealTheme)
+
+slide:
+  nbCode:
+    echo "assabbinidica"
 
 nbSave
