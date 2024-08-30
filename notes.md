@@ -49,7 +49,7 @@
       - aggiungo anche talk su streamlit?
     - grazie [x]
 - chista -> chistacca [x]
-- deploy on github pages
+- deploy on github pages [x]
 
 not minimal (kept for a later version, to be submitted at PyCon Italy):
 - content
@@ -136,6 +136,8 @@ domanda sui backend:
 
 offtopic:
 - it would be nice to have a follow all when you hover over contributors of a project
+
+
 
 ## issue: `Error: cannot open file: nimib`
 
